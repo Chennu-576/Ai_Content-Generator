@@ -145,7 +145,7 @@ export default function BlogGeneratorLanding() {
       title: "Account",
       links: [
         { l: "Sign In", href: "/login" },
-        { l: "Sign Up", href: "/signup" },
+        { l: "Sign Up", href: "/login" },
         { l: "Dashboard", href: "/dashboard" },
       ],
     },
@@ -192,7 +192,7 @@ export default function BlogGeneratorLanding() {
               <Link href="/login" className="px-5 py-2 text-sm text-gray-300 hover:text-white transition-colors">
                 Sign In
               </Link>
-              <Link href="/signup">
+              <Link href="/login">
                 <button className="relative px-5 py-2.5 rounded-lg text-sm font-semibold bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 transition-all shadow-lg shadow-purple-600/30 group">
                   <span className="flex items-center gap-1.5">
                     Get Started
@@ -218,7 +218,7 @@ export default function BlogGeneratorLanding() {
               <Link href="/login" className="flex-1">
                 <button className="w-full px-4 py-2.5 rounded-lg border border-white/10 text-sm font-semibold hover:bg-white/5 transition-colors">Sign In</button>
               </Link>
-              <Link href="/signup" className="flex-1">
+              <Link href="/login" className="flex-1">
                 <button className="w-full px-4 py-2.5 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 text-sm font-semibold">Get Started</button>
               </Link>
             </div>
@@ -249,7 +249,7 @@ export default function BlogGeneratorLanding() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 mb-8">
-                <Link href="/signup">
+                <Link href="/login">
                   <button className="group w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-semibold shadow-xl shadow-purple-600/30 transition-all transform hover:scale-[1.02] flex items-center justify-center gap-2">
                     Start Creating Free
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -719,7 +719,7 @@ export default function BlogGeneratorLanding() {
                 Join thousands of creators shipping content at the speed of AI. Start free — no card required.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-                <Link href="/signup">
+                <Link href="/login">
                   <button className="group px-8 py-4 rounded-xl bg-white text-purple-700 hover:bg-gray-100 font-semibold shadow-xl transition-all transform hover:scale-[1.02] flex items-center gap-2">
                     Start Creating Free
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
